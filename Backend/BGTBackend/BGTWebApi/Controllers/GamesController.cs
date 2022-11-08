@@ -24,6 +24,12 @@ namespace BGTWebApi.Controllers
             return Ok();
         }
 
+        [HttpDelete]
+        public async Task<ActionResult> DeleteGame(Guid gameId)
+        {
+            return Ok();
+        }
+
         [HttpPut]
         public async Task<ActionResult> UpdateGame(UpdateGameDto updateDto)
         {
@@ -32,6 +38,12 @@ namespace BGTWebApi.Controllers
 
         [HttpPost]
         public async Task<ActionResult<Guid>> CreateExpansion(CreateExpansionDto createExpansionDto)
+        {
+            return Ok();
+        }
+
+        [HttpDelete]
+        public async Task<ActionResult> DeleteExpansion(Guid enpansionId)
         {
             return Ok();
         }

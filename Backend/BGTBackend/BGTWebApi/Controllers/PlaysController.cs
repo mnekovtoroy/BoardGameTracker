@@ -22,7 +22,13 @@ namespace BGTWebApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Guid>> CreatePlay(CreatePlayDto createDto)
         {
-            return Ok(Guid.NewGuid());
+            return Ok();
+        }
+
+        [HttpDelete]
+        public async Task<ActionResult> DeletePlay(Guid playId)
+        {
+            return Ok();
         }
 
         [HttpPut]

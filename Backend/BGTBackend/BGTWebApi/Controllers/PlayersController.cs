@@ -24,6 +24,12 @@ namespace BGTWebApi.Controllers
             return Ok();
         }
 
+        [HttpDelete]
+        public async Task<ActionResult> DeletePlayer(Guid playerId)
+        {
+            return Ok();
+        }
+
         [HttpPut]
         public async Task<ActionResult> UpdatePlayer(UpdatePlayerDto updatePlayer)
         {
