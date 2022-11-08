@@ -6,7 +6,7 @@ namespace BGTWebApi.Models.Plays
     {
         DateTime Date { get; set; }
         Guid Game { get; set; }
-        List<Extention> Extentions { get; set; }
+        List<Expansion> Expansions { get; set; }
         List<Result> Results { get; set; }
         string? Description { get; set; }
     }

@@ -7,7 +7,7 @@
         string Name { get; set; }
         int MinPlayers { get; set; }
         int MaxPlayers { get; set; }
-        List<Extention> Extentions { get; set; }
+        List<Expansion> Expansions { get; set; }
         string? Description { get; set; }
     }
 }
