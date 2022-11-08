@@ -29,5 +29,11 @@ namespace BGTWebApi.Controllers
         {
             return Ok();
         }
+
+        [HttpPost]
+        public async Task<ActionResult<Guid>> CreateExpansion(CreateExpansionDto createExpansionDto)
+        {
+            return Ok();
+        }
     }
 }
